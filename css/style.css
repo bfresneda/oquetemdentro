@@ -1,0 +1,14 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #FFF;
+    font-size: 11pt;
+    font-weight: 200;
+    color: #656565;
+}
