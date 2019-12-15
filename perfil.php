@@ -11,10 +11,10 @@
   </head>
   <body>
       
+    <?php  require('./includes/menu.php') ?>
 
 
-
-
+ estudar como realizar a verificacao de login via autenticacao
 
 
 
