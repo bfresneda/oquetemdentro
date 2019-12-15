@@ -9,7 +9,8 @@
 <link rel="stylesheet" href="./css/login.css">
 <script src="./js/login.js"></script>
 
-<body>
+<?php require('./menu.php');   ?>
+
     <div class="container">
         <div class="row">
 			<div class="col-md-5 mx-auto">
@@ -94,4 +95,3 @@
 		</div>
       </div>   
          
-</body>

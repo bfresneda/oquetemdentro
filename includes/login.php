@@ -10,8 +10,10 @@
 <script src="./js/login.js"></script>
 <link rel="stylesheet" href="./css/login.css">
 
-<body>
-    <?php include('./menu.php') ?>
+<?php 
+    require('./menu.php')
+    
+    ?>
     <div class="container">
         <div class="row">
 			<div class="col-md-5 mx-auto">
