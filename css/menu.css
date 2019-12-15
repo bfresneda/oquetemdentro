@@ -1,4 +1,42 @@
-#wrapper {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: block;
+    top: 0.5em;
+    background-color: #b0e993;
+    border: solid 1px #79c255;
+    height: 80px;
+}
+
+.barramenu {
+    display: block;
+    align-items: center;
+    width: 100vw;
+    justify-content: center;
+}
+
+nav ul {
+    display: block;
+}
+
+nav ul li {
+    margin: 0 30px;
+}
+
+.destaque:hover {
+    background-color: #79C255;
+}
+
+.nav-link:hover {
+    position: block;
+    align-items: center;
+}
+
+
+/* #wrapper {
     display: fixed;
     background: #FFF;
 }
@@ -70,4 +108,4 @@
     color: #FFF;
 }
 
-.dropdown {}
+.dropdown {} */

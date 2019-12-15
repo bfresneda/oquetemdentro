@@ -1,38 +1,30 @@
-
-
     <link rel="stylesheet" href="./css/menu.css">
-        <nav id="wrapper">
-            <div id="header" class="">
-                <!-- <div id="logo">
-                    <h1><a href="#">O que tem dentro?</a></h1> -->
+       
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="collapse navbar-collapse barramenu" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link btn-success rounded destaque" href="./projeto-o-que-tem-dentro/index.php">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cadastrar
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Produtos</a>
+                <a class="dropdown-item" href="#">Locais</a>
                 </div>
-                <div id="menu" class="bg-light p-4 w-100 d-flex justify-content-center">
-                    <ul>
-                        <li class="current_page_item"><a href="./index.php" accesskey="1" title="">Home</a></li>
-                        <!-- <li><a href="#" accesskey="2" title="">Consultar produtos</a></li>
-                        <li><a href="./cad_produtos.php" accesskey="3" title="">Cadastrar produtos</a></li>
-                        <li><a href="#" accesskey="4" title="">Cadastrar alergenos</a></li> -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Cadastrar
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Produtos</a>
-                            <!-- <a class="dropdown-item" href="#"></a> -->
-                            <!-- <div class="dropdown-divider"></div> -->
-                            <a class="dropdown-item" href="#">Locais</a>
-                            </div>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Consultar
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Produtos</a>
-                            <a class="dropdown-item" href="#">Locais</a>
-                            </div>
-                        </li>
-                        <li class="Login"><a href="./login.php" accesskey="5" title="">Login / cadastre-se </a></li>
-                    </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Consultar
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Produtos</a>
+                <a class="dropdown-item" href="#">Locais</a>
                 </div>
-            </nav>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link btn-success rounded destaque" href="./includes/login.php">Login / Cadastre-se <span class="sr-only"></span></a>
+            </ul>
+        </div>
+    </nav>
