@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="./css/login.css">
 <script src="./js/login.js"></script>
 
-<?php require('./menu.php');   ?>
+
 
     <div class="container">
         <div class="row">
@@ -21,41 +21,7 @@
 							<h1>Cadastre-se</h1>
 						 </div>
 					</div>
-                   <!-- <form action="" method="post" name="login">
-                           <div class="form-group">
-                              <label for="exampleInputEmail1">Email</label>
-                              <input type="email" name="email"  class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
-                           </div>
-                           <div class="form-group">
-                              <label for="exampleInputEmail1">Senha</label>
-                              <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="Enter Password">
-                           </div>
-                           <div class="form-group">
-                              <p class="text-center">By signing up you accept our <a href="#">Terms Of Use</a></p>
-                           </div>
-                           <div class="col-md-12 text-center ">
-                              <button type="submit" class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
-                           </div>
-                           <div class="col-md-12 ">
-                              <div class="login-or">
-                                 <hr class="hr-or">
-                                 <span class="span-or">or</span>
-                              </div>
-                           </div>
-                           <div class="col-md-12 mb-3">
-                              <p class="text-center">
-                                 <a href="javascript:void();" class="google btn mybtn"><i class="fa fa-google-plus">
-                                 </i> Signup using Google
-                                 </a>
-                              </p>
-                           </div>
-                           <div class="form-group">
-                              <p class="text-center">Não é cadastrado ainda? <a href="./cadastro.php" id="signup">Cadastre-se aqui!</a></p>
-                           </div>
-                        </form>
-                 
-				</div>
-			</div> -->
+
 			  <div id="second">
 			      <div class="myform form ">
                         <div class="logo mb-3">
@@ -83,6 +49,9 @@
                            <div class="col-md-12 text-center mb-3">
                               <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm">Cadastrar-se</button>
                            </div>
+                           <div class="col-md-12 text-center ">
+                                 <a class="nav-link btn-success rounded destaque my-3" href="//localhost/bruno/oquetemdentro/index.php">Home <span class="sr-only">(current)</span></a>
+                              </div>   
                            <div class="col-md-12 ">
                               <div class="form-group">
                                  <p class="text-center"><a href="./login.php" id="signin">Ja esta cadastrado? Clique aqui!</a></p>
