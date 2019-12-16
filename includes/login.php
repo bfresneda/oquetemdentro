@@ -34,7 +34,7 @@
                                  <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="">
                               </div>
                               <div class="col-md-12 text-center ">
-                                 <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm" >Login</button>
+                                 <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm" ><a href="//localhost/bruno/oquetemdentro/perfil.php">Login</a></button>
                               </div> 
                               <div class="col-md-12 text-center ">
                                  <a class="nav-link btn-success rounded destaque my-3" href="//localhost/bruno/oquetemdentro/index.php">Home <span class="sr-only">(current)</span></a>
