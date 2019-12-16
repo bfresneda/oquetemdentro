@@ -1,7 +1,8 @@
     <link rel="stylesheet" href="./css/menu.css">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top">
         <div class="collapse navbar-collapse barramenu" id="navbarNavDropdown">
+            <a class="navbar-brand logomarca" href="#">O que tem dentro?</a>
             <ul class="navbar-nav">
             <li class="nav-item active">
                 <a class="nav-link btn-success rounded destaque" href="//localhost/bruno/oquetemdentro/index.php">Home <span class="sr-only">(current)</span></a>
