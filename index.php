@@ -9,12 +9,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <?php 
     require('./includes/menu.php');
-    ?>
+	?>
+	
+	<!-- Quem somos -->
 <div id="featured">
             <div class="container">
                 <div class="title">
@@ -63,9 +66,9 @@
 		</ul>
 	</div>
 </div>
-<div id="copyright" class="container">
+<!-- <div id="copyright" class="container">
 	<p> <a href="https://www.youtube.com/watch?v=f-jNhAKKJLI&list=PLZYcPiE6n15vbrUfuVakd8TcW2QwGZY_N%3Futm_source%3Dalergenicos&utm_medium=Blog">Alergênicos</a></p>
-</div>
+</div> -->
 
 
 

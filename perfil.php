@@ -8,14 +8,34 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/perfil.css">
   </head>
   <body>
       
-    <?php  require('./includes/menu.php') ?>
+    <?php  require('./includes/menuperfil.php') ?>
 
-
- estudar como realizar a verificacao de login via autenticacao
-
+<section class="container">
+  <div class="row my-5 ">
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Alergenos Cadastrados</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maiores quae obcaecati eveniet fuga aut dicta eos eius odit amet velit quibusdam ratione labore similique excepturi ducimus nesciunt, saepe non.Quasi porro, quam aperiam fugiat nihil amet. Provident cupiditate quae facilis nemo, excepturi reprehenderit eum non voluptate molestias voluptatum praesentium ab, ipsum distinctio illum esse dolore error natus magni ad.</p>
+          <a href="#" class="btn btn-primary">Cadastrar outros</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Ultimos produtos consultados</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis maiores quae obcaecati eveniet fuga aut dicta eos eius odit amet velit quibusdam ratione labore similique excepturi ducimus nesciunt, saepe non.Quasi porro, quam aperiam fugiat nihil amet. Provident cupiditate quae facilis nemo, excepturi reprehenderit eum non voluptate molestias voluptatum praesentium ab, ipsum distinctio illum esse dolore error natus magni ad.</p>
+          <a href="#" class="btn btn-primary">Cadastrar outros</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 
 

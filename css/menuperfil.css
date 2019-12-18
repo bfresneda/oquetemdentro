@@ -1,0 +1,22 @@
+.btnhome:hover {
+    background-color: rgb(137, 189, 111);
+}
+
+
+/* .btnbuscar {
+    display: block;
+    background-color: rgb(137, 189, 111);
+    left: 250px;
+    width: 130px;
+    height: 40px;
+} */
+
+.btn-custom {
+    padding: 1px 15px 3px 2px;
+    border-radius: 0px;
+}
+
+.btn-icon {
+    padding: 10px;
+    background: #ffffff;
+}
