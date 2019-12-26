@@ -19,12 +19,17 @@
         <div class="collapse navbar-collapse barramenu " id="navbarNavDropdown">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link rounded btnhome" href="//localhost/bruno/oquetemdentro/index.php">Home <span class="sr-only"></span></a>
+                <a class="nav-link rounded btnhome" href="http://localhost/bruno/Oquetemdentro/consulta.php">Consulta<span class="sr-only"></span></a>
+              
+            <li class="nav-item">
+                <a class="nav-link rounded btnhome" href="#">Dependente<span class="sr-only"></span></a>
+            <li class="nav-item">
+              <a class="nav-link rounded btnhome" href="http://localhost/bruno/Oquetemdentro/perfil.php">Perfil<span class="sr-only"></span></a>
 
-               
-                <li class="nav-item">
-                    <a class="nav-link" href="#"></a>
-                </li>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"></a>
+            </li>
 
 
 
@@ -50,9 +55,6 @@
         </div>
     </nav>
 
-    <button type="button" class="btn btn-primary btn-lg">
-        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star
-    </button>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

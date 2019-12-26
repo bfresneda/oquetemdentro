@@ -25,15 +25,8 @@ nav ul li {
     margin: 0 30px;
 }
 
-.destaque {
-    background-color: rgb(137, 189, 111);
-}
-
 .destaque:hover {
-    background-color: rgb(129, 173, 106);
-}
-
-.nav-link:hover {
+    background-color: rgb(137, 189, 111);
     position: block;
     align-items: center;
 }

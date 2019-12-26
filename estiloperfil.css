@@ -1,11 +1,16 @@
-/* formatacao estilo 2*/
-
-body {
-    padding: 40px;
-}
-
 .ui.dropdown {
     max-width: 800px;
+}
+
+.lista {
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.listagem {
+    border: 1px #000000 solid;
+    padding: 50px;
+    width: 450px;
 }
 
 @media only screen and (max-width: 767px) {
