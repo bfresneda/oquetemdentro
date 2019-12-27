@@ -21,14 +21,14 @@
 <?php 
     require('includes/menuperfil.php')
 ?>
-            <div class="lista">
+            <div class="container col-sm-5 ml-5 mx-3">
 
                 <h3>Selecione os ingredientes que você tem restrição</h3>
     
-                <div class="inline field">
+                <div class="container inline field ">
                     <label>Ingredientes</label>
     
-                    <select name="alergenos" multiple="" class="label ui selection fluid dropdown ">
+                    <select name="alergenos" multiple="" class="container label ui selection fluid dropdown ">
                     <!-- <option value="">Todos</option> -->
                     <option>Farinha de trigo</option> 
                     <option>crustáceos</option> 
@@ -54,30 +54,113 @@
     
                     </select>
                 </div>
-                
-    
-                </div>
-                
-    
-                <div class="ui button lista">
-                Limpar selecionados
+                            
+                <div class="ui button lista m-3">
+                    Limpar selecionados
                 </div>
                 <button type="submit" class="btn btn-primary lista">Enviar</button>
                 
-            
+                
+            </div>       
 
-            <div class='lista'> 
-            <h2>Lista alergenos cadastrados</h2>
-            <div class='listagem'>
-                <span> Farinha de trigo;
-                    crustáceos;
-                    ovos;
-                    peixes;
-                    amendoim;
-                    soja</span>
-            </div>
-            </div>
-            </div>
+
+<!-- inicio -->
+<!--Accordion wrapper-->
+<div class="accordion md-accordion col-sm-4" id="accordionEx" role="tablist" aria-multiselectable="true">
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingOne1">
+      <a class='links' data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+        aria-controls="collapseOne1">
+        <h5 class="mb-0">
+          Ultimas consultas <i class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+      data-parent="#accordionEx">
+      <div class="card-body">
+      <ul class='mx-5'>
+            <li>Bis</li>
+            <li>Leite ninho</li>
+            <li>Cup noodles frango</li>
+            <li>Lasanha a bolonhesa sadia</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingTwo2">
+      <a class="collapsed links" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+        aria-expanded="false" aria-controls="collapseTwo2">
+        <h5 class="mb-0">
+        Lista alergenos cadastrados <i class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+      data-parent="#accordionEx">
+      <div class="card-body">
+            <ul class='mx-5'>
+                <li>Gluten</li>
+                <li>castanha de caju</li>
+                <li>macadâmias</li>
+                <li>Corante</li>
+                <li>Camarao</li>
+            </ul>
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+  <!-- Accordion card -->
+  <div class="card">
+
+    <!-- Card header -->
+    <div class="card-header" role="tab" id="headingThree3">
+      <a class="collapsed links" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+        aria-expanded="false" aria-controls="collapseThree3">
+        <h5 class="mb-0">
+          Meus dependentes<i class="fas fa-angle-down rotate-icon"></i>
+        </h5>
+      </a>
+    </div>
+
+    <!-- Card body -->
+    <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+      data-parent="#accordionEx">
+      <div class="card-body">
+            <ul class='mx-5'>
+                <li>João</li>
+                <li>Pedrinho</li>
+            </ul>
+
+      </div>
+    </div>
+
+  </div>
+  <!-- Accordion card -->
+
+</div>
+<!-- Accordion wrapper -->
+
+<!-- fim -->
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -1,3 +1,9 @@
+html,
+body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+}
+
 .ui.dropdown {
     max-width: 800px;
 }
@@ -11,6 +17,14 @@
     border: 1px #000000 solid;
     padding: 50px;
     width: 450px;
+}
+
+.jumbotron-fluid {
+    height: 100px;
+}
+
+.links {
+    text-decoration: brown;
 }
 
 @media only screen and (max-width: 767px) {
