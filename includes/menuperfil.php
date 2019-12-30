@@ -14,7 +14,6 @@
   </head>
   <body>
           
-
     <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top ">
         <div class="collapse navbar-collapse barramenu " id="navbarNavDropdown">
             <ul class="navbar-nav">
@@ -54,6 +53,7 @@
                         <a class="justify-content-end"> Logado como: Bruno</a>
         </div>
     </nav>
+
 
 
     <!-- Optional JavaScript -->
