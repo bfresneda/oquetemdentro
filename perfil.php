@@ -21,6 +21,7 @@
 <?php 
     require('includes/menuperfil.php')
 ?>
+      <div class="container my-5 py-5">
             <div class="container col-sm-5 ml-5 mx-3">
 
                 <h3>Selecione os ingredientes que você tem restrição</h3>
@@ -155,6 +156,7 @@
   </div>
   <!-- Accordion card -->
 
+</div>
 </div>
 <!-- Accordion wrapper -->
 
