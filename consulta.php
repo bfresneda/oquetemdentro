@@ -14,13 +14,20 @@
     <?php require('./includes/menuperfil.php') ?>
 
 
-    <div>      
-        <div class="leitor">
-        <div class="interno">
-        </div>
+    <div>  <p>Scanneie o codigo de barras</p>    
+        <div class="leitor"> </div>
+            <div class="container botoes col-sm-6">
+              <input name="" id="" class="btn btn-success mx-4" type="button" value="PODE">
+              <input name="" id="" class="btn btn-danger" type="button" value="NÃO PODE">
+            </div>
         </div> 
     </div>
-
+    <div class="container jumbotron jumbotron-fluid col-sm-6">
+      <div class="container">
+        <h1 class="display-4">"Produto</h1>
+        <p class="lead "> Lista ingredientes</p>
+      </div>
+    </div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
