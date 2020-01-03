@@ -25,7 +25,7 @@
                 </div>
             </li> -->
             <li class="nav-item">
-                <a class="nav-link rounded destaque bg-light" href="#"> Consultar produto <span class="sr-only"></span></a>
+                <a class="nav-link rounded destaque bg-light" href="//localhost/bruno/oquetemdentro/consultasemcadastro.php"> Consultar produto <span class="sr-only"></span></a>
             <li class="nav-item">
                 <a class="nav-link rounded destaque bg-light" href="//localhost/bruno/oquetemdentro/includes/login.php">Login / Cadastre-se <span class="sr-only"></span></a>
             </ul>

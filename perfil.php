@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
 
 
-    <link rel="stylesheet" href="estiloperfil.css">
+    <link rel="stylesheet" href="./css/perfil.css">
 </head>
 <body>
 
