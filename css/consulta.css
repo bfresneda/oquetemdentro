@@ -8,3 +8,7 @@
     background-color: rgba(200, 236, 175, 0.692);
     border-radius: 5%;
 }
+
+.imgbarcode {
+    width: 100px;
+}

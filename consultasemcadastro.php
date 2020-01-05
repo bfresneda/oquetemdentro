@@ -15,7 +15,8 @@
 
 
     <div>  <p class='container'>Scanneie o codigo de barras</p>    
-        <div class="leitor"> </div>
+        <div class="leitor"> <img src="./img/barcode.png" alt="" class="img-fluid align-middle">      
+          </div>
             <div class="container botoes col-sm-6">
               <input name="" id="" class="btn btn-success mx-4 mb-4" type="button" value="PODE">
               <input name="" id="" class="btn btn-danger mb-4" type="button" value="NÃO PODE">
