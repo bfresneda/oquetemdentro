@@ -34,10 +34,10 @@
                                  <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="">
                               </div>
                               <div class="col-md-12 text-center ">
-                                 <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm" ><a href="//localhost/bruno/oquetemdentro/perfil.php">Login</a></button>
+                                 <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm" ><a href="//localhost/oquetemdentro/perfil.php">Login</a></button>
                               </div> 
                               <div class="col-md-12 text-center ">
-                                 <a class="nav-link btn-success rounded destaque my-3" href="//localhost/bruno/oquetemdentro/index.php">Home <span class="sr-only">(current)</span></a>
+                                 <a class="nav-link btn-success rounded destaque my-3" href="//localhost/oquetemdentro/index.php">Home <span class="sr-only">(current)</span></a>
                               </div>           
                               <div class="form-group">
                                  <p class="text-center">Não é cadastrado ainda? <a href="./cadastro.php" id="signup">Cadastre-se aqui!</a></p>
