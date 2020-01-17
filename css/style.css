@@ -7,7 +7,7 @@ body {
 body {
     margin: 0px;
     padding: 0px;
-    background: #FFF;
+    background: rgb(255, 255, 255);
     font-size: 11pt;
     font-weight: 200;
     color: #656565;
@@ -135,7 +135,7 @@ ul.contact li a:before {
 .button {
     display: inline-block;
     padding: 0em 2.5em;
-    background: #79C255;
+    background: rgb(238, 163, 182);
     border-radius: 10px;
     letter-spacing: 0.20em;
     line-height: 4em;
@@ -161,8 +161,8 @@ ul.contact li a:before {
 }
 
 .box {
-    padding: 3em 2em 2em 2em;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1em 1em 1em 1em;
+    border: 4px solid rgba(206, 109, 109, 0.1);
     border-radius: 8px;
     text-align: center;
 }
@@ -293,7 +293,7 @@ ul.contact li a:before {
 #banner {
     overflow: hidden;
     padding: 10em 0em;
-    background: url(images/alimentos.jpeg) no-repeat center;
+    background: #FFF
     background-size: cover;
     text-align: center;
     color: rgba(255, 255, 255, .8);
@@ -305,7 +305,7 @@ ul.contact li a:before {
 }
 
 #banner .title h2 {
-    color: #FFF;
+    color: rgb(5, 5, 5);
 }
 
 #banner .title .byline {
@@ -348,13 +348,13 @@ ul.contact li a:before {
 #featured {
     overflow: hidden;
     padding: 5em 0em;
-    background: #79C255;
-    color: rgba(255, 255, 255, .8);
+    background:#FFF
+    color:#2B3F48;
     text-align: center;
 }
 
 #featured a {
-    color: rgba(255, 255, 255, 1);
+    color: #6F6F6F
 }
 
 #featured .button {
@@ -365,11 +365,11 @@ ul.contact li a:before {
 }
 
 #featured .title h2 {
-    color: #FFF;
+    color: rgb(10, 10, 10);
 }
 
 #featured .title .byline {
-    color: rgba(255, 255, 255, .6);
+    color: #6F6F6F;
 }
 
 #extra {

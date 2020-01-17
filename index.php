@@ -24,28 +24,30 @@
                     <h2>Segurança Alimentar</h2>
                     <span class="byline">Alergênicos em alimentos dentro do panorama regulatório e da segurança dos alimentos</span> 
                 </div>
-                <p><strong>Alergênicos</strong>, A prevalência de alergias alimentares cresce ao longo dos anos, mobilizando a saúde pública global e localmente, num cenário onde evitar consumir o alimento potencialmente alergênico continua sendo a maneira mais eficaz de prevenir os quadros alérgicos. No Brasil, o movimento “Põe no Rótulo”, conduzido inicialmente por mães de crianças alérgicas, demonstra desde a proximidade do tema com nossa sociedade, a importância da informação correta acessível no rótulo, única ferramenta onde este público pode se apoiar para a seleção correta de seus alimentos.  Gabriela Lopez Velasco, especialista global de Food Safety na 3M, desvenda o panorama regulatório atual de alergênicos em alimentos, contextualizando sua origem e esclarecendo a relevância do caráter preventivo ao olhar para o futuro.</p>
+                <p><strong >Alergênicos</strong>, A prevalência de alergias alimentares cresce ao longo dos anos, mobilizando a saúde pública global e localmente, num cenário onde evitar consumir o alimento potencialmente alergênico continua sendo a maneira mais eficaz de prevenir os quadros alérgicos. No Brasil, o movimento “Põe no Rótulo”, conduzido inicialmente por mães de crianças alérgicas, demonstra desde a proximidade do tema com nossa sociedade, a importância da informação correta acessível no rótulo, única ferramenta onde este público pode se apoiar para a seleção correta de seus alimentos.  Gabriela Lopez Velasco, especialista global de Food Safety na 3M, desvenda o panorama regulatório atual de alergênicos em alimentos, contextualizando sua origem e esclarecendo a relevância do caráter preventivo ao olhar para o futuro.</p>
             </div>
         </div>
 
 		<div id="extra" class="container">
 		<div class="title">
+
+		aaa
 			<h2>Programa de Controle de Alergênicos</h2>
 			<span class="byline"> Como e Quando Aplicar</span> </div>
 		<div id="three-column">
 			<div class="boxA">
-				<div class="box">
+				<div class="box"> <img src="img/pao.jpeg" width="280" height="240" alt="">
 					<p>	Cerca de 5 milhões de crianças no Brasil têm intolerância à lactose ou alergia à proteína do leite de vaca. Apesar disso, a rotulagem de alérgenos não é lei e nossos rótulos são incompletos</p>
 				</div>
 			</div>
 			<div class="boxB">
-				<div class="box">
+				<div class="box"> <img src="img/down.jpg" width="300" height="240" alt="">
 					<p>Cerca de 5 milhões de crianças no Brasil têm intolerância à lactose ou alergia à proteína do leite de vaca. Apesar disso, a rotulagem de alérgenos não é lei e nossos rótulos são incompletos</p>
 				</div>
 			</div>
 			<div class="boxC">
-				<div class="box">
-					<p>Cerca de 5 milhões de crianças no Brasil têm intolerância à lactose ou alergia à proteína do leite de vaca. Apesar disso, a rotulagem de alérgenos não é lei e nossos rótulos são incompletos</p>
+				<div class="box"><img src="img/lei1.jpg" width="280" height="240" alt="">
+				<p>	Cerca de 5 milhões de crianças no Brasil têm intolerância à lactose ou alergia à proteína do leite de vaca. Apesar disso, a rotulagem de alérgenos não é lei e nossos rótulos são incompletos</p>
 				</div>
 			</div>
 		</div>
@@ -54,11 +56,7 @@
 	<div id="page" class="container">
 		<div class="title">
 			<h2>Doenças Transmitidas por Alimentos</h2>
-			<span class="byline">Além disso, os consumidores devem ter o direito de escolher aquilo que for mais conveniente para si. Fazendo com que seja necessário que o Estado intervenha em assuntos que possam ferir esse direito ou até comprometer a saúde de alguém.</span> </div>
-		<div class="gallery">
-			<div class="boxA"><img src="images/alergia1.jpg" width="320" height="200" alt="" /></div>
-			<div class="boxB"><img src="images/alergia.jpg" width="320" height="200" alt="" /></div>
-			<div class="boxC"><img src="images/alergia1.jpg" width="320" height="200" alt="" /></div>
+			<span class="byline">Além disso, os consumidores devem ter o direito de escolher aquilo que for mais conveniente para si. Fazendo com que seja necessário que o Estado intervenha em assuntos que possam ferir esse direito ou até comprometer a saúde de alguém.</span> 
 		</div>	
 		<p>A prevalência de alergias alimentares cresce ao longo dos anos, mobilizando a saúde pública global e localmente, num cenário onde evitar consumir o alimento potencialmente alergênico continua sendo a maneira mais eficaz de prevenir os quadros alérgicos.</p>
 		<ul class="actions">
