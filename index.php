@@ -30,8 +30,6 @@
 
 		<div id="extra" class="container">
 		<div class="title">
-
-		aaa
 			<h2>Programa de Controle de Alergênicos</h2>
 			<span class="byline"> Como e Quando Aplicar</span> </div>
 		<div id="three-column">
