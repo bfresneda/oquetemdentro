@@ -18,12 +18,14 @@
         <div class="collapse navbar-collapse barramenu " id="navbarNavDropdown">
             <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link rounded btnhome" href="http://localhost/Oquetemdentro/consulta.php">Consulta<span class="sr-only"></span></a>
+            <a class="nav-link rounded destaque bg-light" href="//localhost/oquetemdentro/index.php">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+                <a class="nav-link rounded bg-light btnhome" href="http://localhost/Oquetemdentro/consulta.php">Consulta<span class="sr-only"></span></a>
               
             <li class="nav-item">
-                <a class="nav-link rounded btnhome" href="http://localhost/Oquetemdentro/includes/dependente.php">Dependente<span class="sr-only"></span></a>
+                <a class="nav-link rounded bg-light btnhome" href="http://localhost/Oquetemdentro/includes/dependente.php">Dependente<span class="sr-only"></span></a>
             <li class="nav-item">
-              <a class="nav-link rounded btnhome" href="http://localhost/Oquetemdentro/perfil.php">Perfil<span class="sr-only"></span></a>
+              <a class="nav-link rounded bg-light btnhome" href="http://localhost/Oquetemdentro/perfil.php">Perfil<span class="sr-only"></span></a>
 
             </li>
             <li class="nav-item">
