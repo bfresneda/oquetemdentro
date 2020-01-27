@@ -21,31 +21,39 @@
 <div id="featured">
             <div class="container">
                 <div class="title">
-                    <h2>Segurança Alimentar</h2>
-                    <span class="byline">Alergênicos em alimentos dentro do panorama regulatório e da segurança dos alimentos</span> 
+                    <h2>Quem somos</h2>
+                    <!-- <span class="byline">Alergênicos em alimentos dentro do panorama regulatório e da segurança dos alimentos</span>  -->
                 </div>
-                <p><strong >Alergênicos</strong>, A prevalência de alergias alimentares cresce ao longo dos anos, mobilizando a saúde pública global e localmente, num cenário onde evitar consumir o alimento potencialmente alergênico continua sendo a maneira mais eficaz de prevenir os quadros alérgicos. No Brasil, o movimento “Põe no Rótulo”, conduzido inicialmente por mães de crianças alérgicas, demonstra desde a proximidade do tema com nossa sociedade, a importância da informação correta acessível no rótulo, única ferramenta onde este público pode se apoiar para a seleção correta de seus alimentos.  Gabriela Lopez Velasco, especialista global de Food Safety na 3M, desvenda o panorama regulatório atual de alergênicos em alimentos, contextualizando sua origem e esclarecendo a relevância do caráter preventivo ao olhar para o futuro.</p>
+                <p><strong > A ideia surgiu da experiência pessoal de alguns integrantes do nosso grupo.
+				Focamos em criar uma plataforma intuitiva, com o objetivo de facilitar a vida de nossos usuários, em assuntos relativos à segurança alimentar (alergia ou intolerância).
+				O objetivo é proporcionar as pessoas que acessarem a plataforma, meios simples e rápidos de identificar uma possível alergia e ou intolerância alimentar.
+				Num segundo passo, o usuário cadastrado, alimenta um banco de dados pessoal com suas restrições específicas.
+				Posteriormente, de uma forma simples e intuitiva consulta itens em nosso sistema e descobre se aquele alimento possui algum ingrediente incompatível com o usuário.
+				Em breve lançaremos um aplicativo para smartphones para que as consultas possam ser feitas através da leitura do código de barras dos produtos consultados bastando que a pessoa tenha câmera internet disponível no aparelho </strong></p>
             </div>
         </div>
 
 		<div id="extra" class="container">
 		<div class="title">
-			<h2>Programa de Controle de Alergênicos</h2>
+			<h2>Testes simples para detectar intolerância alimentar</h2>
 			<span class="byline"> Como e Quando Aplicar</span> </div>
 		<div id="three-column">
 			<div class="boxA">
 				<div class="box"> <img src="img/pao.jpeg" width="280" height="240" alt="">
-					<p>	Cerca de 5 milhões de crianças no Brasil têm intolerância à lactose ou alergia à proteína do leite de vaca. Apesar disso, a rotulagem de alérgenos não é lei e nossos rótulos são incompletos</p>
+					<h4>Teste citotóxico</h4>
+					<p>Baseado nas células do corpo, o princípio desse teste de intolerância alimentar é o mesmo do sanguíneo – por meio da retirada do líquido vermelho da veia do paciente. Porém, ao invés de reagir com os anticorpos imunes do corpo, ele foca nos glóbulos brancos, que podem encolher e mudar do estado sólido para líquido durante a análise laboratorial. Apesar de ser usado em alguns laboratórios, os cientistas alegam que ele não é tão preciso quanto o teste sanguíneo.</p>
 				</div>
 			</div>
 			<div class="boxB">
 				<div class="box"> <img src="img/down.jpg" width="300" height="240" alt="">
-					<p>Cerca de 5 milhões de crianças no Brasil têm intolerância à lactose ou alergia à proteína do leite de vaca. Apesar disso, a rotulagem de alérgenos não é lei e nossos rótulos são incompletos</p>
+				<h4>Teste da dieta de eliminação</h4>
+					<p> Com acompanhamento nutricional constante, esse tipo de teste sugere que o paciente deixe de comer alguns alimentos específicos por um tempo e, durante um teste cego ou sem saber, esses itens sejam consumidos novamente, mas dessa vez sob análise de um nutricionista. Os efeitos de sensibilidade e reação são registrados, em especial para quem possui doença celíaca.</p>
 				</div>
 			</div>
 			<div class="boxC">
 				<div class="box"><img src="img/lei1.jpg" width="280" height="240" alt="">
-				<p>	Cerca de 5 milhões de crianças no Brasil têm intolerância à lactose ou alergia à proteína do leite de vaca. Apesar disso, a rotulagem de alérgenos não é lei e nossos rótulos são incompletos</p>
+				<h4>Teste Sangúineo</h4>
+				<p>Ao testar a sensibilidade alimentar, o sangue extraído é exposto a vários tipos de alimentos e componentes. O grau de ligação do anticorpo da imunoglobulina G (IgG) a cada alimento é medido e, com isso, os resultados são especificados de acordo com cada variação. É possível especificar até quais alimentos de uma determinada categoria reagem ao teste, como laticínios e derivados de castanhas.</p>
 				</div>
 			</div>
 		</div>
