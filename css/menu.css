@@ -24,7 +24,7 @@ nav ul li {
     margin: 0 30px;
 }
 
-.destaque:hover {
+.efeito:hover {
     background-color: rgb(137, 189, 111);
     position: block;
     align-items: center;

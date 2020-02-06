@@ -38,20 +38,23 @@
 			<h2>Testes simples para detectar intolerância alimentar</h2>
 			<span class="byline"> Como e Quando Aplicar</span> </div>
 		<div id="three-column">
-			<div class="boxA">
-				<div class="box"> <img src="img/pao.jpeg" width="280" height="240" alt="">
+			<div class="box-geral">
+				<div class="box"> 
+					<img src="img/pao.jpeg" width="200" height="160" alt="">
 					<h4>Teste citotóxico</h4>
 					<p>Baseado nas células do corpo, o princípio desse teste de intolerância alimentar é o mesmo do sanguíneo – por meio da retirada do líquido vermelho da veia do paciente. Porém, ao invés de reagir com os anticorpos imunes do corpo, ele foca nos glóbulos brancos, que podem encolher e mudar do estado sólido para líquido durante a análise laboratorial. Apesar de ser usado em alguns laboratórios, os cientistas alegam que ele não é tão preciso quanto o teste sanguíneo.</p>
 				</div>
 			</div>
-			<div class="boxB">
-				<div class="box"> <img src="img/down.jpg" width="300" height="240" alt="">
-				<h4>Teste da dieta de eliminação</h4>
+			<div class="box-geral">
+				<div class="box"> 
+					<img src="img/down.jpg" width="200" height="160" alt="">
+					<h4>Teste da dieta de eliminação</h4>
 					<p> Com acompanhamento nutricional constante, esse tipo de teste sugere que o paciente deixe de comer alguns alimentos específicos por um tempo e, durante um teste cego ou sem saber, esses itens sejam consumidos novamente, mas dessa vez sob análise de um nutricionista. Os efeitos de sensibilidade e reação são registrados, em especial para quem possui doença celíaca.</p>
 				</div>
 			</div>
-			<div class="boxC">
-				<div class="box"><img src="img/lei1.jpg" width="280" height="240" alt="">
+			<div class="box-geral">
+				<div class="box">
+				<img src="img/lei1.jpg" width="200" height="160" alt="">
 				<h4>Teste Sangúineo</h4>
 				<p>Ao testar a sensibilidade alimentar, o sangue extraído é exposto a vários tipos de alimentos e componentes. O grau de ligação do anticorpo da imunoglobulina G (IgG) a cada alimento é medido e, com isso, os resultados são especificados de acordo com cada variação. É possível especificar até quais alimentos de uma determinada categoria reagem ao teste, como laticínios e derivados de castanhas.</p>
 				</div>

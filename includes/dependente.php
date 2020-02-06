@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Cadastro dependente</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -12,17 +12,19 @@
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   
    <!------ Include the above in your HEAD tag ---------->
 
    <script src="https://cdn.jsdelivr.net/jquery.validation/1.15.1/jquery.validate.min.js"></script>
    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
-
+   <!-- <link rel="stylesheet" href="./css/menu.css"> -->
+    <!-- <link rel="stylesheet" href="./css/menuperfil.css"> -->
 
    <script src="./js/login.js"></script>
-   <link rel="stylesheet" href="./css/login.css">
-   <link rel="stylesheet" href="./css/perfil.css">
+   <!-- <link rel="stylesheet" href="./css/login.css"> -->
+   <!-- <link rel="stylesheet" href="./css/perfil.css"> -->
 
 
   </head>
@@ -53,12 +55,12 @@
                         </div>
                         <form action="#" name="registration">
                            <div class="form-group">
-                              <label for="exampleInputEmail1">Nome</label>
-                              <input type="text"  name="firstname" class="form-control" id="firstname" aria-describedby="emailHelp" placeholder="">
+                              <label for="nome">Nome</label>
+                              <input type="text"  name="nome" class="form-control" id="firstname">
                            </div>
                            <div class="form-group">
-                              <label for="exampleInputEmail1">Sobrenome</label>
-                              <input type="text"  name="lastname" class="form-control" id="lastname" aria-describedby="emailHelp" placeholder="">
+                              <label for="sobrenome">Sobrenome</label>
+                              <input type="text"  name="sobrenome" class="form-control" id="lastname">
                            </div>
                            
             <div class="">

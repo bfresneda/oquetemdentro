@@ -1,38 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Title</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
+
+<head>
+<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/consulta.css">
-  </head>
-  <body>
-    <?php require('./includes/menuperfil.php') ?>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/multi-select/0.9.12/css/multi-select.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.2.13/dist/semantic.min.css">
 
 
-    <div>  <p class='container'>Scanneie o codigo de barras</p>    
-        <div class="leitor"> </div>
-            <div class="container botoes col-sm-6">
-              <input name="" id="" class="btn btn-success mx-4 mb-4" type="button" value="PODE">
-              <input name="" id="" class="btn btn-danger mb-4" type="button" value="NÃO PODE">
+    <!-- <link rel="stylesheet" href="./css/perfil.css"> -->
+    <link rel="stylesheet" href="./css/consulta_v2.css">
+</head>
+
+<body>
+
+     <?php 
+        require('includes/menuperfil.php')
+    ?> 
+    <main>
+        <section class="instrucao1">Posicione o codigo de barras na área abaixo:</section>
+        <div class="leitura"></div>
+
+        <section class="instrucao2">Digite abaixo o código de barras do produto</section>
+        <section class="instrucaoMobile">Se preferir digite aqui o código de barras do produto</section>
+
+
+
+        <form>
+            <input class="codB" type="number" name="cod_barras">
+            <button class="botao" type="button">Enviar</button></aside>
+        </form>
+
+
+        <section class="resultado">Resultado da sua busca</section>
+        <article class="ingredientes1">Ingredientes de importancia comum a alérgicos:
+            <div class="destaque">
+                <ul>
+                    <li> Ovos, </li>
+                    <li> Leite, </li>
+                    <li> Derivados de trigo e de aveia.</li>
+                    <li>Pode conter soja, nozes, amendoim, amêndoa, avelãs, castanha-de-caju, cevada e centeio. </li>
+                    <li>Contém glúten.</li>
+                </ul>
             </div>
-        </div> 
-    </div>
-    <div class="container jumbotron jumbotron-fluid col-sm-6">
-      <div class="container">
-        <h1 class="display-4">"Produto"</h1>
-        <p class="lead container"> Lista ingredientes</p>
-      </div>
-    </div>
-      
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
+        </article>
+        <article class="ingredientes2">Lista completa de ingredientes
+            <div class="demais">
+                <P>farinha de trigo fortificada com ferro e ácido fólico, açúcar, recheio sabor chocolate (água, açúcar, xarope de glicose, leite em pó desnatado, cacau em pó, amido modificado, polidextrose, umectantes: sorbitol e glicerina, espessante pectina,
+                    conservador sorbato de potássio, acidulante ácido fosfórico e aromatizante), ovo, óleo vegetal de girassol, purê de banana, açúcar líquido invertido, farinha de aveia, sal, fibra de laranja, umectante glicerina, emulsificantes: mono
+                    e diglicerídeos de ácidos graxos e ésteres de ácidos graxos com poliglicerol, aromatizante, fermentos químicos: fosfato monocálcico, pirofosfato ácido de cálcio e bicarbonato de sódio, conservadores: propionato de cálcio e ácido sórbico,
+                    espessantes: goma acácia, goma xantana e goma guar e acidulante ácido cítrico. Alérgicos: contém ovos, leite, ingredientes: derivados de trigo e de aveia. Pode conter soja, nozes, amendoim, amêndoa, avelãs, castanha-de-caju, cevada
+                    e centeio. Contém glúten.</P>
+            </div>
+        </article>
+
+
+    </main>
+    <footer>Precisa de um footer</footer>
+</body>
+
 </html>
