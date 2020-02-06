@@ -34,7 +34,9 @@
                                  <input type="password" name="password" id="password"  class="form-control" aria-describedby="emailHelp" placeholder="">
                               </div>
                               <div class="col-md-12 text-center ">
-                                 <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm" ><a href="//localhost/oquetemdentro/perfil.php">Login</a></button>
+                                 <!-- <button type="submit" class=" btn btn-block mybtn btn-success tx-tfm" href='//localhost/oquetemdentro/perfil.php'>Login</button> -->
+                                 <a class="nav-link btn-success rounded destaque my-3" href="//localhost/oquetemdentro/perfil.php">Login <span class="sr-only">(current)</span></a>
+                              
                               </div> 
                               <div class="col-md-12 text-center ">
                                  <a class="nav-link btn-success rounded destaque my-3" href="//localhost/oquetemdentro/index.php">Home <span class="sr-only">(current)</span></a>
