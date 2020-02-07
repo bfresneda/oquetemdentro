@@ -1,7 +1,9 @@
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
     <link rel="stylesheet" href="./css/menu.css">
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light sticky-top ">
-        <div class="collapse navbar-collapse barramenu " id="navbarNavDropdown">
+        <div class="container barramenu " id="navbarNavDropdown">
             <ul class="navbar-nav">
             <li class="nav-item">
             <a class="nav-link rounded bg-light" href="//localhost/oquetemdentro/index.php">Home <span class="sr-only">(current)</span></a>

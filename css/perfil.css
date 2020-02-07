@@ -8,10 +8,12 @@ body {
     max-width: 800px;
 }
 
+
+/* 
 .lista {
-    padding: 20px;
+    padding: 5px;
     margin-left: 20px;
-}
+} */
 
 .listagem {
     border: 1px #000000 solid;

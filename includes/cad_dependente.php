@@ -8,27 +8,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/consulta.css">
   </head>
   <body>
-    <?php require('./includes/menuperfil.php') ?>
-
-
-    <div>  <p class='container'>Scanneie o codigo de barras</p>    
-        <div class="leitor"> </div>
-            <div class="container botoes col-sm-6">
-              <input name="" id="" class="btn btn-success mx-4 mb-4" type="button" value="PODE">
-              <input name="" id="" class="btn btn-danger mb-4" type="button" value="NÃO PODE">
-            </div>
-        </div> 
-    </div>
-    <div class="container jumbotron jumbotron-fluid col-sm-6">
-      <div class="container">
-        <h1 class="display-4">"Produto"</h1>
-        <p class="lead container"> Lista ingredientes</p>
-      </div>
-    </div>
-      
+      <?php 
+      require('menu_geral.php');
+      ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

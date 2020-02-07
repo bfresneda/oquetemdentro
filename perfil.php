@@ -1,3 +1,7 @@
+    <?php 
+    require('includes/menu_geral.php');
+    ?>
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -18,15 +22,13 @@
 </head>
 <body>
 
-<?php 
-    require('includes/menuperfil.php')
-?>
+
       <div class="container my-5 py-5">
             <div class="container col-sm-5 ml-5 mx-3">
 
                 <h3>Selecione os ingredientes que você tem restrição</h3>
     
-                <div class="container inline field ">
+                <div class="container inline field col-xl-12">
                     <label>Ingredientes</label>
     
                     <select name="alergenos" multiple="" class="container label ui selection fluid dropdown ">

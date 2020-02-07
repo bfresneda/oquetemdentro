@@ -6,13 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Consulta produto</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/consulta_v2.css">
+    
 
 </head>
 <body>
     <?php 
-    require('./includes/menu.php');
-	?>
+    require('./includes/menu_geral.php');
+    ?>
+    <link rel="stylesheet" href="./css/consulta_v2.css">
     <main>
         <section class="instrucao1">Posicione o codigo de barras na área abaixo:</section>
         <div class="leitura"></div>

@@ -1,3 +1,7 @@
+	<?php 
+   		require('./includes/menu_geral.php');
+	?>
+
 <!doctype html>
 <html lang="pt-br">
 
@@ -9,17 +13,15 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="./css/index.css">
 </head>
 
 <body>
-    <?php 
-    require('./includes/menu.php');
-	?>
+
 	
 	<!-- Quem somos -->
-<div id="featured">
-            <div class="container">
+		<div id="featured">
+            <div class="container destaque">
                 <div class="title">
                     <h2>Quem somos</h2>
                     <!-- <span class="byline">Alergênicos em alimentos dentro do panorama regulatório e da segurança dos alimentos</span>  -->
